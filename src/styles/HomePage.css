@@ -1,0 +1,141 @@
+/* styles/HomePage.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #d61e00;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-button, .user-info button {
+  background-color: #f50057;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover, .user-info button:hover {
+  background-color: #c51162;
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.sports-sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sports-sidebar h2 {
+  text-align: center;
+  color: #1a237e;
+  margin-bottom: 1.5rem;
+}
+
+.sport-sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.sport-sidebar-item:hover {
+  background-color: #e1e1e1;
+}
+
+.sport-sidebar-item .sport-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.sport-sidebar-item .sport-name {
+  font-size: 1.1rem;
+  color: #1a237e;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.welcome-section h2 {
+  font-size: 2rem;
+  color: #1a237e;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer {
+  background-color: #d61e00;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.admin-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.history-link {
+  color: #fff;
+  text-decoration: underline;
+}
